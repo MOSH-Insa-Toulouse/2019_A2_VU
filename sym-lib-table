@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name GasSensor)(type Legacy)(uri /home/tux/Bureau/5ISS_CM/KICAD/ProjectTest/GasSensor.lib)(options "")(descr ""))
+  (lib (name myShield-rescue)(type Legacy)(uri ${KIPRJMOD}/myShield-rescue.lib)(options "")(descr ""))
+  (lib (name Gas_Sensor)(type Legacy)(uri ${KIPRJMOD}/Gas_Sensor.lib)(options "")(descr ""))
+)

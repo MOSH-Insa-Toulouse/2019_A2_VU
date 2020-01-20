@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C_Small-Device
+#
+DEF C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM1875-Amplifier_Audio
+#
+DEF LM1875-Amplifier_Audio U 0 5 Y Y 1 F N
+F0 "U" 150 250 50 H V C CNN
+F1 "LM1875-Amplifier_Audio" 150 150 50 H V C CNN
+F2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" 0 0 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO?220*StaggerOdd*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X - 2 -300 -100 100 R 50 50 1 1 I
+X V- 3 -100 -300 150 U 50 50 1 1 W
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# R_Small_US-Device
+#
+DEF R_Small_US-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_Small_US-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
